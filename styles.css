@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("todo-list.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 100vh;
+    opacity: 0.95;
+}
+
+h1 {
+    color: blue;
+    font-size: 3rem;
+}
